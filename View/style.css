@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100px; /* Largeur de l'image */
+    height: auto; /* Hauteur ajustée automatiquement */
+    margin-right: 180px; /* Marge à droite pour l'espace */
+}
+
+.top {
+    text-align: center;
+    color: #162c59;
+    display: flex; /* Utiliser le modèle de boîte flexible */
+    align-items: center;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.categories {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #162c59;
+}
+
+.category-link {
+    text-decoration: none;
+    color: #f8f9fa;
+    margin-right: 10px;
+}
+
+.news {
+    border-top: 3px solid #162c59;
+    padding-top: 20px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    color: #162c59;
+}
+
+.article p {
+    color: #666;
+}
+
+.soap-rest h2 {
+    text-align: center;
+    color: #162c59;
+}
+
+.soap-rest p {
+    color: #666;
